@@ -29,7 +29,7 @@ const DataProvider = ({children}) => {
              return item[property]
             
             })
-         newCategory= [ ...new Set(newCategory)]
+         newCategory= ["All", ...new Set(newCategory)]
          
     return newCategory
         }
